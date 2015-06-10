@@ -12,7 +12,6 @@ body{
 	min-height:100%;
 	height:auto!important;
 	overflow:hidden;
-	width:1400px;
 	margin: 0 auto 80px auto;
 }
 .wrapper:after {
@@ -22,15 +21,18 @@ body{
 }
 .page-footer{
 	height: 80px;
-	width:1400px;
 	margin: -80px auto 0px auto;
 	background-color:#eff3f7;
 	border-top-width: 3px; /* Толщина линии внизу */
     border-top-style: solid; /* Стиль линии внизу */
     border-top-color: #3ba8c0; /* Цвет линии внизу */
 }
+.footer-container{
+	min-width:960px;
+	max-width:1200px;
+	margin: 0 auto;
+}
 .page-header{
-	width:100%;
 	height:117px;
 	background-color:#eff3f7;
 	margin-bottom:39px;
@@ -39,7 +41,13 @@ body{
     border-bottom-color: #3ba8c0; /* Цвет линии внизу */
 }
 .container-big{
-
+	min-width:960px;
+	max-width:1200px;
+	margin: 0 auto;
+}
+.container{
+	width:960px;
+	margin: 0 auto;
 }
 .logo-box{
 	float:left;
@@ -51,11 +59,11 @@ body{
 }
 .sidebar{
 	float:left;
-	margin-left:221px;
-	
+
 }
 .variable-content{
-	float:left;
+	float:right;
+	width:650px;
 }
 
 
@@ -232,10 +240,7 @@ body{
 
 /* /контакты */
 /* изменяемый контент */
-.variable-content{
-	margin-left:60px;
-	width:650px;
-}
+
 .aboutbox{
 	background-color: #eff3f7;
 	margin-bottom: 27px;
@@ -261,7 +266,7 @@ body{
 }
 .worksheet-info{
 	float:left;
-	margin-left:18px;
+	margin-left:5px;
 	margin-top: 2px;
 	font-size:15px;
 	font-family:fira_sansbook;
@@ -279,6 +284,7 @@ body{
 }
 .worksheet-wrap{
 	float:left;
+	width:400px;
 	margin-left:22px;
 }
 .worksheet-list{
