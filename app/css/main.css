@@ -22,11 +22,17 @@ body{
 .page-footer{
 	height: 80px;
 	margin: -80px auto 0px auto;
-	background-color:#eff3f7;
-	border-top-width: 3px; /* Толщина линии внизу */
-    border-top-style: solid; /* Стиль линии внизу */
-    border-top-color: #3ba8c0; /* Цвет линии внизу */
+	background:#eff3f7  url('/img/line.png') top center no-repeat;;
 }
+/*.page-footer::before{
+	content:"";
+	display:block;
+	width:100%;
+	height:3px;
+	background-image: -moz-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+ 	background-image: -ms-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+}*/
 .footer-container{
 	min-width:960px;
 	max-width:1200px;
@@ -34,12 +40,21 @@ body{
 }
 .page-header{
 	height:117px;
-	background-color:#eff3f7;
-	margin-bottom:39px;
-	border-bottom-width: 3px; /* Толщина линии внизу */
-    border-bottom-style: solid; /* Стиль линии внизу */
-    border-bottom-color: #3ba8c0; /* Цвет линии внизу */
 }
+.header-wrapper{
+	margin-bottom:39px;
+	background:#eff3f7 url('/img/line.png') bottom center no-repeat;
+
+}
+/*.header-wrapper::after{
+	content:"";
+	display:block
+	;width:100%;
+	height:3px;
+	background-image: -moz-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+ 	background-image: -ms-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+}*/
 .container-big{
 	min-width:960px;
 	max-width:1200px;
@@ -52,7 +67,7 @@ body{
 .logo-box{
 	float:left;
 	
-	margin: 39px 0px 0px 99px;
+	margin: 39px 0px 0px 0px;
 }
 .socials-box{
 	float:right;
@@ -65,21 +80,19 @@ body{
 	float:right;
 	width:650px;
 }
-
-
-.socials-box{
-	margin-right:79px;
-}
 .socials{
 	margin-top:35px;
 	height:47px;
+	padding:0;
 }
 .social-item{
 	display:inline-block;
 	height:100%;
 	width:47px;
-	margin-right:20px;
-
+	margin-left:20px;
+}
+.social-item:first-child{
+	margin-left:0px;
 }
 .hid-text,.header-logo-text{
 	display:none !important;
@@ -97,10 +110,7 @@ body{
 	list-style-type: none;
 	font-size: 23px;
 	color:#3ba8c0;
-
-	border-bottom-width: 2px; /* Толщина линии внизу */
-    border-bottom-style: solid; /* Стиль линии внизу */
-    border-bottom-color: #3ba8c0; /* Цвет линии внизу */
+	border-top: 2px solid #3ba8c0;
 
 }
 .current{
@@ -266,7 +276,7 @@ body{
 }
 .worksheet-info{
 	float:left;
-	margin-left:5px;
+	margin-left:18px;
 	margin-top: 2px;
 	font-size:15px;
 	font-family:fira_sansbook;
@@ -284,7 +294,7 @@ body{
 }
 .worksheet-wrap{
 	float:left;
-	width:400px;
+	width:420px;
 	margin-left:22px;
 }
 .worksheet-list{
@@ -351,7 +361,7 @@ body{
 	background: url(../img/list.png) 63px center no-repeat;
 }
 .aboutbox-body{
-	padding-bottom:26px;
+	padding-bottom:19px;
 	margin-top:10px;
 }
 .aboutbox-item{
