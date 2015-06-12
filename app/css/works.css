@@ -12,7 +12,7 @@ body{
 	min-height:100%;
 	height:auto!important;
 	overflow:hidden;
-	margin: 0 auto 80px auto;
+	margin: 0 auto 80 auto;
 }
 .wrapper:after {
 	content: "";
@@ -24,15 +24,6 @@ body{
 	margin: -80px auto 0px auto;
 	background:#eff3f7  url('/img/line.png') top center no-repeat;;
 }
-/*.page-footer::before{
-	content:"";
-	display:block;
-	width:100%;
-	height:3px;
-	background-image: -moz-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
-	background-image: -webkit-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
- 	background-image: -ms-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
-}*/
 .footer-container{
 	min-width:960px;
 	max-width:1200px;
@@ -46,15 +37,6 @@ body{
 	background:#eff3f7 url('/img/line.png') bottom center no-repeat;
 
 }
-/*.header-wrapper::after{
-	content:"";
-	display:block
-	;width:100%;
-	height:3px;
-	background-image: -moz-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
-	background-image: -webkit-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
- 	background-image: -ms-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
-}*/
 .container-big{
 	min-width:960px;
 	max-width:1200px;
@@ -102,6 +84,7 @@ body{
 	border-radius:2% 2%;
 	overflow:hidden;
 }
+
 .navigation-item{
 	background-color: #eff3f7;
 	display:block; 
@@ -181,9 +164,6 @@ body{
 .gh:hover{
     background: url(../img/gh-hover.png) 0px center no-repeat;
 }
-
-/*контакты*/
-
 .contacts{
 	border-radius:2% 2%;
 	overflow:hidden
@@ -248,8 +228,6 @@ body{
 	background-color: #51daf8;
 }
 
-/* /контакты */
-/* изменяемый контент */
 
 .aboutbox{
 	background-color: #eff3f7;
@@ -268,112 +246,15 @@ body{
 	font-size: 27px;
 	font-weight:normal;
 }
-.worksheet-what{
-	float:left;
-	font-size:17px;
-	font-family:fira_sansmedium;
+
+.works-list{
 
 }
-.worksheet-info{
-	float:left;
-	margin-left:18px;
-	margin-top: 2px;
-	font-size:15px;
-	font-family:fira_sansbook;
+.works-list-item{
+	display:inline-block;
+	width:200px;
+	height:226px;
 }
-.worksheet-item {
-	margin-bottom: 7px;
-	list-style-type: none;
-}
-/*первая секция*/
-
-.image-wrap{
-	float:left;
-	margin-left:55px;
-	margin-top:17px;
-}
-.worksheet-wrap{
-	float:left;
-	width:420px;
-	margin-left:22px;
-}
-.worksheet-list{
-	padding:0px;
-	margin-top:0px;
-}
-.skills-list{
-	margin: 0 0 0 5px;
-    padding: 0;
-    width:230px;
-}
-.skill-item{
-	list-style: none;
-    float: left;
-    padding: 3px 15px;
-    cursor: pointer;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    color: #ffffff;
-
-    font-size: 14px;
-    font-family: 'proxima_nova_condensedSBd';
-
-	border-radius: 3px;
-	background-image: -moz-linear-gradient( 90deg, rgb(46,140,162) 0%, rgb(46,140,162) 52%, rgb(59,168,192) 53%, rgb(59,168,192) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgb(46,140,162) 0%, rgb(46,140,162) 52%, rgb(59,168,192) 53%, rgb(59,168,192) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(46,140,162) 0%, rgb(46,140,162) 52%, rgb(59,168,192) 53%, rgb(59,168,192) 100%);
-
-}
-/*ава*/
-.avatar-box{
-	width:142px;
-	height:142px;
-	border-radius:50% 50%;
-	overflow:hidden;
-	border:5px solid #3ba8c0;
-}
-/*/ава*/
-
-/*/первая секция*/
-/* вторая секция */
-
-.aboutbox-item .where{
-	font-size: 17px;
-	font-family:fira_sansbook;
-
-	/*fira_sanslight*/
-}
-.aboutbox-item .period{
-	font-size: 15px;
-	font-family:fira_sanslight;
-	margin-top:0px;
-}
-.aboutbox-item div{
-	margin-left:125px;
-}
-.aboutbox-item.icon-work{
-	background: url(../img/bag.png) 57px center no-repeat;
-}
-.aboutbox-item.icon-college{
-	background: url(../img/head.png) 57px center no-repeat;
-}
-.aboutbox-item.icon-coutse{
-	background: url(../img/list.png) 63px center no-repeat;
-}
-.aboutbox-body{
-	padding-bottom:19px;
-	margin-top:10px;
-}
-.aboutbox-item{
-	list-style-type: none;
-	margin-bottom:0px;
-
-}
-.aboutbox-list{
-	padding-left:0px;
-	margin-top:10px;
-}
-/*футер*/
 .copyright{
 	padding-top:32px;
 	margin-left:205px;
@@ -387,10 +268,6 @@ body{
 	float:left;
 	background: url(../img/lock.png) 250px center no-repeat;
 }
-/* /футер */
-
-/* /вторая секция*/
-/* /изменяемый контент */
 .clearfix:before,
 .clearfix:after{
 	content:" ";
@@ -399,4 +276,3 @@ body{
 .clearfix:after{
 	clear:both;
 }
-
