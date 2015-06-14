@@ -10,7 +10,7 @@
 	<meta name="author" content="Alexandrov Artem">
 	<!-- CSS -->
 	<link rel="stylesheet" href="bower/normalize.css/normalize.css">
-	<link rel="stylesheet" href="css/works.css">
+	<link rel="stylesheet" href="css/connect.css">
 	<link rel="stylesheet" href="fonts/fira/fira.css">
 	<link rel="stylesheet" href="fonts/proxima-nova/stylesheet.css">
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -62,10 +62,10 @@
 						<li class="navigation-item">
 							<a href="/" class="navigation-link">Обо мне</a>
 						</li>
-						<li class="navigation-item current">
-							<a href="#" class="navigation-link">Мои работы</a>
-						</li>
 						<li class="navigation-item">
+							<a href="/works.html" class="navigation-link">Мои работы</a>
+						</li>
+						<li class="navigation-item current">
 							<a href="/connect.html" class="navigation-link">Связаться со мной</a>
 						</li>
 					</ul>
@@ -99,66 +99,43 @@
 			<!-- изменяемый контент -->
 			<div class="variable-content">
 				<!-- список работ -->
-				<section class="aboutbox">
-					<h2 class="aboutbox-header">Мои работы</h2>
-					<div class="aboutbox-body clearfix">
-						<ul class="works-list">
-							<li class="works-list-item">
-								<div class="work-image">
-									<div class="image-wrapper">
-										<img src="/img/tepm_work_img.png" alt="">
+				<section class="main-container">
+					<div class="main-container-header">
+						<h3 class="container-header-text">У вас интересный проект? Напишите мне</h3>
+					</div>
+					<div class="main-container-body">
+						<div class="form-wrapper">
+							<form action="#" method="post">
+								<div class="input-form-container clearfix">
+									<div class="input-name-wrapper">
+										<div class="form-title">Имя</div>
+										<input type="text" class="input-form" value="Как к вам обратиться?">
 									</div>
-									<div class="image-name">
-										www.site.ru
-									</div>
-								</div>
-								<div class="work-preview">Информация о проекте 1 превью 2 строчки</div>
-							</li>
-							<li class="works-list-item">
-								<div class="work-image">
-									<div class="image-wrapper">
-										<img src="/img/tepm_work_img.png" alt="">
-									</div>
-									<div class="image-name">
-										www.site.ru
+									<div class="input-mail-wrapper">
+										<div class="form-title">Email</div>
+										<input type="email" class="input-form" value="Куда мне писать?">
+
 									</div>
 								</div>
-								<div class="work-preview">Информация о проекте 2 превью 2 строчки</div>
-							</li>
-							<li class="works-list-item">
-								<div class="work-image">
-									<div class="image-wrapper">
-										<img src="/img/tepm_work_img.png" alt="">
+								<div class="text-aria-wrapper">
+									<div class="form-title">Имя</div>
+									<textarea class="textarea-form">Кратко в чем суть</textarea>
+								</div>
+								<div class="captcha-wrapper clearfix">
+									<div class="form-title">Введите код указанный на картинке</div>
+									<div class="captcha-img">
+										<img src="img/temp_captcha.png" alt="">
 									</div>
-									<div class="image-name">
-									www.site.ru
+									<div class="captcha-input">
+										<input type="text" class="input-form" value="Введите код">
 									</div>
 								</div>
-								<div class="work-preview">Информация о проекте 3 превью 2 строчки</div>
-							</li>
-							<li class="works-list-item">
-								<div class="work-image">
-									<div class="image-wrapper">
-										<img src="/img/tepm_work_img.png" alt="">
-									</div>
-									<div class="image-name">
-										www.site.ru
-									</div>
+								<div class="buttons-wrapper clearfix">
+									<input type="submit" class="submit-form" value="Отправить">
+									<input type="reset" class="reset-form" value="Отчистить">
 								</div>
-								<div class="work-preview">Информация о проекте 4 превью 2 строчки</div>
-							</li>
-							<li class="works-list-item">
-								<div class="work-image">
-									<div class="image-wrapper">
-										<img src="/img/tepm_work_img.png" alt="">
-									</div>
-									<div class="image-name">
-										www.site.ru
-									</div>
-								</div>
-								<div class="work-preview">Информация о проекте 5 превью 2 строчки</div>
-							</li>
-						</ul>
+							</form>
+						</div>
 					</div>
 				</section>
 				<!-- / список работ -->

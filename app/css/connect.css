@@ -12,7 +12,7 @@ body{
 	min-height:100%;
 	height:auto!important;
 	overflow:hidden;
-	margin: 0 auto 80px auto;
+	margin: 0 auto 83px auto;
 }
 .wrapper:after {
 	content: "";
@@ -61,6 +61,7 @@ body{
 .variable-content{
 	float:right;
 	width:650px;
+	padding-bottom: 30px;
 }
 .socials{
 	margin-top:35px;
@@ -229,26 +230,107 @@ body{
 }
 
 
-.aboutbox{
+.main-container{
 	background-color: #eff3f7;
-	margin-bottom: 27px;
+	border-radius:2% 2% 0% 0%;
+	overflow: hidden;
+
 }
-.aboutbox-header{
-	margin-left:21px;
-	margin-top:0px;
-	margin-bottom: 17px;
-	padding:14px 0px 10px 0px ;
+
+.main-container-header{
+	background: #48cbe8;
 	color:#3ba8c0;
-	border-bottom-width: 2px; /* Толщина линии внизу */
-    border-bottom-style: solid; /* Стиль линии внизу */
-    border-bottom-color: #3ba8c0; /* Цвет линии внизу */
-    font-family:fira_sansbook;
+	padding: 14px 23px;
+	border-bottom: 17px solid #67dffa;
+	margin-bottom:48px;
+}
+
+.container-header-text{
+	text-align: center;
+  	vertical-align: middle;
 	font-size: 27px;
+	color:#ffffff;
+	font-family:fira_sansbook;
 	font-weight:normal;
 }
+.main-container-body{
+	width:100%;
+}
 
-.works-list{
+.form-wrapper{
+	width: 402px;
+	margin: 0 auto;
+}
+.input-name-wrapper{
+	width:192px;
+	float:left;
+}
+.input-mail-wrapper{
+	width:192px;
+	float:right;
+}
+.input-form{
+  width: 190px;
+  border: 1px solid #48cbe8;
+  font-family: fira_sanslight;
+  font-size: 13px;
+  color: #48cbe8;
+  height: 41px;
+  border-radius: 4px;
+}
+.form-title{
+	font-size:19px;
+	font-family: fira_sanslight;
+	color: #4a545d;
+}
+.textarea-form{
+	width :400px;
+	border: 1px solid #48cbe8;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+	height: 183px;
+	border-radius: 4px;
+	padding:0;
 
+}
+.text-aria-wrapper{
+	margin-bottom: 20px;
+}
+.input-form-container{
+	margin-bottom: 20px;
+}
+.captcha-img{
+	float:left;
+}
+.captcha-input{
+	float:right;
+}
+.captcha-wrapper{
+	margin-bottom: 20px;
+}
+.submit-form{
+	padding: 8px 20px 4px;
+	background-color: #48cbe8;
+	border: none;
+	float:left;
+	border-radius: 2px;
+	font-family: fira_sansbook;
+	font-size:19px;
+  	color: #FFF;
+}
+.reset-form{
+	padding: 8px 20px 4px;
+	background-color: #849db5;
+	border: none;
+	border-radius: 2px;
+	font-family: fira_sansbook;
+	font-size:19px;
+  	color: #FFF;
+	float:right;
+}
+.buttons-wrapper{
+	margin-bottom: 200px;
 }
 .works-list-item{
 	display:inline-block;
