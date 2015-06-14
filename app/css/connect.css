@@ -357,7 +357,12 @@ body{
 	width:300px;
 	height:80px;
 	float:left;
+	
+}
+.lock-inner{
+	display:block;
 	background: url(../img/lock.png) 250px center no-repeat;
+	height: 100%;
 }
 .clearfix:before,
 .clearfix:after{

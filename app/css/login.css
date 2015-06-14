@@ -37,25 +37,26 @@ body{
 	border-radius:2% 2% 0% 0%;
 	overflow: hidden;
 
-	margin:100px auto;
+	margin:275px auto;
 
 }
 
 .popap-container-header{
 	background: #48cbe8;
 	color:#3ba8c0;
-	padding: 1px 23px;
+	padding: 1px 1px;
 	border-bottom: 13px solid #67dffa;
-	margin-bottom:40px;
+	margin-bottom:17px;
 }
 
 .popap-container-header-text{
 	text-align: center;
   	vertical-align: middle;
-	font-size: 27px;
+	font-size: 40px;
 	color:#ffffff;
 	font-family:fira_sansbook;
 	font-weight:normal;
+	margin: 15px;
 }
 .popap-container-body{
 	width:420px;
@@ -63,15 +64,17 @@ body{
 }
 
 .popap-form-wrapper{
-	width: 402px;
+	width: 420px;
 	margin: 0 auto;
 }
 .popap-input-name-wrapper{
 	width:100%;
+	margin-bottom:11px;
 
 }
-.popap-input-mail-wrapper{
+.popap-input-password-wrapper{
 	width:100%;
+	margin-bottom:11px;
 }
 .popap-input-form{
   width: 100%;
@@ -79,7 +82,7 @@ body{
   font-family: fira_sanslight;
   font-size: 13px;
   color: #48cbe8;
-  height: 60px;
+  height: 58px;
   border-radius: 4px;
 }
 .popap-form-title{
@@ -90,11 +93,11 @@ body{
 }
 
 .popap-input-form-container{
-	margin-bottom: 20px;
+	margin-bottom: 36px;
 }
 
 .popap-submit-form{
-	padding: 8px 20px 4px;
+	padding: 0 62px;
 	background-color: #48cbe8;
 	border: none;
 	float:left;
@@ -104,8 +107,8 @@ body{
   	color: #FFF;
 }
 .popap-button-wrapper{
-	width:150px;
-	margin: 0 auto 200px auto;
+	width:226px;
+ 	margin: 0 auto 115px auto;
 }
 .copyright{
 	padding-top:32px;
