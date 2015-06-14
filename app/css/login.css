@@ -31,22 +31,25 @@ body{
 }
 
 
-.main-container{
+.popap-container{
+	width:590px;
 	background-color: #eff3f7;
 	border-radius:2% 2% 0% 0%;
 	overflow: hidden;
 
+	margin:100px auto;
+
 }
 
-.main-container-header{
+.popap-container-header{
 	background: #48cbe8;
 	color:#3ba8c0;
-	padding: 14px 23px;
-	border-bottom: 17px solid #67dffa;
-	margin-bottom:48px;
+	padding: 1px 23px;
+	border-bottom: 13px solid #67dffa;
+	margin-bottom:40px;
 }
 
-.container-header-text{
+.popap-container-header-text{
 	text-align: center;
   	vertical-align: middle;
 	font-size: 27px;
@@ -54,91 +57,62 @@ body{
 	font-family:fira_sansbook;
 	font-weight:normal;
 }
-.main-container-body{
-	width:100%;
+.popap-container-body{
+	width:420px;
+	margin: 0 auto;
 }
 
-.form-wrapper{
+.popap-form-wrapper{
 	width: 402px;
 	margin: 0 auto;
 }
-.input-name-wrapper{
-	width:192px;
-	float:left;
+.popap-input-name-wrapper{
+	width:100%;
+
 }
-.input-mail-wrapper{
-	width:192px;
-	float:right;
+.popap-input-mail-wrapper{
+	width:100%;
 }
-.input-form{
-  width: 190px;
+.popap-input-form{
+  width: 100%;
   border: 1px solid #48cbe8;
   font-family: fira_sanslight;
   font-size: 13px;
   color: #48cbe8;
-  height: 41px;
+  height: 60px;
   border-radius: 4px;
 }
-.form-title{
-	font-size:19px;
+.popap-form-title{
+	font-size:36px;
 	font-family: fira_sanslight;
-	color: #4a545d;
+	color: #849db5;
+	text-align:center;
 }
-.textarea-form{
-	width :400px;
-	border: 1px solid #48cbe8;
-	font-family: fira_sanslight;
-	font-size: 13px;
-	color: #48cbe8;
-	height: 183px;
-	border-radius: 4px;
-	padding:0;
 
-}
-.text-aria-wrapper{
+.popap-input-form-container{
 	margin-bottom: 20px;
 }
-.input-form-container{
-	margin-bottom: 20px;
-}
-.captcha-img{
-	float:left;
-}
-.captcha-input{
-	float:right;
-}
-.captcha-wrapper{
-	margin-bottom: 20px;
-}
-.submit-form{
+
+.popap-submit-form{
 	padding: 8px 20px 4px;
 	background-color: #48cbe8;
 	border: none;
 	float:left;
-	border-radius: 2px;
+	border-radius: 5px;
 	font-family: fira_sansbook;
-	font-size:19px;
+	font-size:36px;
   	color: #FFF;
 }
-.reset-form{
-	padding: 8px 20px 4px;
-	background-color: #849db5;
-	border: none;
-	border-radius: 2px;
-	font-family: fira_sansbook;
-	font-size:19px;
-  	color: #FFF;
-	float:right;
-}
-.buttons-wrapper{
-	margin-bottom: 200px;
+.popap-button-wrapper{
+	width:150px;
+	margin: 0 auto 200px auto;
 }
 .copyright{
 	padding-top:32px;
 	margin:0 auto;
 	font-family: fira_sanslight;
 	font-size:13px;
-	width:400px;
+	width:430px;
 }
 
 .clearfix:before,
