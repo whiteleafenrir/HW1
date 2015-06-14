@@ -39,7 +39,7 @@ body{
 	margin: 0 auto;
 }
 .page-header{
-	height:117px;
+	height:119px;
 }
 .header-wrapper{
 	margin-bottom:39px;
@@ -98,7 +98,7 @@ body{
 	display:none !important;
 }
 .navigation{
-	margin-bottom:23px;
+	margin-bottom:26px;
 	border-radius:2% 2%;
 	overflow:hidden;
 }

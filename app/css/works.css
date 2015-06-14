@@ -30,7 +30,7 @@ body{
 	margin: 0 auto;
 }
 .page-header{
-	height:117px;
+	height:119px;
 }
 .header-wrapper{
 	margin-bottom:39px;
@@ -80,7 +80,7 @@ body{
 	display:none !important;
 }
 .navigation{
-	margin-bottom:23px;
+	margin-bottom:26px;
 	border-radius:2% 2%;
 	overflow:hidden;
 }
@@ -246,14 +246,46 @@ body{
 	font-size: 27px;
 	font-weight:normal;
 }
+.image-wrapper{
+	width:181px;
+	height:127px;
+	border: 1px solid #48cbe8;
+	border-radius: 3px;
+	margin-bottom: 8px;
+}
+.image-name{
+	text-align: center;
+}
+.url-style{
+	text-decoration: none;
+	color:#48cbe8;
+	font-size:13px;
+	font-family: fira_sanslight;
+	font-style:italic;
 
+}
+.work-preview{
+	text-align:center;
+	height: 45px;
+	overflow: hidden;
+	font-family: fira_sanslight;
+	font-size:15px;
+	color:#4a545d;
+}
 .works-list{
-
+	padding-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 306px;
 }
 .works-list-item{
 	display:inline-block;
-	width:200px;
+	width:182px;
 	height:226px;
+	margin-left:23px;
+	margin-bottom: 15px;
+}
+.work-image{
+	margin-bottom:4px;
 }
 .copyright{
 	padding-top:32px;
