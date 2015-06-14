@@ -242,7 +242,7 @@ body{
 	color:#3ba8c0;
 	padding: 14px 23px;
 	border-bottom: 17px solid #67dffa;
-	margin-bottom:48px;
+	margin-bottom:40px;
 }
 
 .container-header-text{
@@ -275,8 +275,17 @@ body{
   font-family: fira_sanslight;
   font-size: 13px;
   color: #48cbe8;
-  height: 41px;
+  height: 39px;
   border-radius: 4px;
+}
+.input-form-captcha{
+  width: 190px;
+  border: 1px solid #48cbe8;
+  font-family: fira_sanslight;
+  font-size: 13px;
+  color: #48cbe8;
+  height: 32px;
+  border-radius: 4px;	
 }
 .form-title{
 	font-size:19px;
@@ -295,22 +304,22 @@ body{
 
 }
 .text-aria-wrapper{
-	margin-bottom: 20px;
 }
 .input-form-container{
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 .captcha-img{
 	float:left;
 }
 .captcha-input{
+	padding-top: 20px;
 	float:right;
 }
 .captcha-wrapper{
 	margin-bottom: 20px;
 }
 .submit-form{
-	padding: 8px 20px 4px;
+	padding: 2px 21px 2px;
 	background-color: #48cbe8;
 	border: none;
 	float:left;
@@ -320,7 +329,7 @@ body{
   	color: #FFF;
 }
 .reset-form{
-	padding: 8px 20px 4px;
+	padding: 2px 18px 2px;
 	background-color: #849db5;
 	border: none;
 	border-radius: 2px;
