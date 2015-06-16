@@ -30,17 +30,16 @@ body{
 }
 
 
-.popap-container{
+.login-container{
 	width:590px;
 	background-color: #eff3f7;
 	border-radius:2% 2% 0% 0%;
 	overflow: hidden;
-
 	margin:275px auto 0 auto;
 
 }
 
-.popap-container-header{
+.login-container-header{
 	background: #48cbe8;
 	color:#3ba8c0;
 	padding: 1px 1px;
@@ -48,7 +47,7 @@ body{
 	margin-bottom:17px;
 }
 
-.popap-container-header-text{
+.login-container-header-text{
 	text-align: center;
   	vertical-align: middle;
 	font-size: 40px;
@@ -57,25 +56,27 @@ body{
 	font-weight:normal;
 	margin: 15px;
 }
-.popap-container-body{
+.login-container-body{
 	width:420px;
 	margin: 0 auto;
 }
 
-.popap-form-wrapper{
+.login-form-wrapper{
 	width: 420px;
 	margin: 0 auto;
 }
-.popap-input-name-wrapper{
+.login-input-name-wrapper{
 	width:100%;
 	margin-bottom:11px;
 
 }
-.popap-input-password-wrapper{
+.login-input-password-wrapper{
 	width:100%;
 	margin-bottom:11px;
 }
-.popap-input-form{
+
+.login-input-form{
+  padding-left:10px;
   width: 100%;
   border: 1px solid #48cbe8;
   font-family: fira_sanslight;
@@ -84,18 +85,42 @@ body{
   height: 58px;
   border-radius: 4px;
 }
-.popap-form-title{
+input::-webkit-input-placeholder {  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+input::-moz-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}/* Firefox 19+ */
+input:-moz-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}/* Firefox 18- */
+input:-ms-input-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+.login-form-title{
 	font-size:36px;
 	font-family: fira_sanslight;
 	color: #849db5;
 	text-align:center;
 }
 
-.popap-input-form-container{
+.login-input-form-container{
 	margin-bottom: 36px;
 }
 
-.popap-submit-form{
+.login-submit-form{
 	padding: 0 62px;
 	background-color: #48cbe8;
 	border: none;
@@ -105,7 +130,7 @@ body{
 	font-size:36px;
   	color: #FFF;
 }
-.popap-button-wrapper{
+.login-button-wrapper{
 	width:226px;
  	margin: 0 auto 115px auto;
 }
