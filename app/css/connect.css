@@ -282,6 +282,24 @@ textarea::-webkit-input-placeholder {
 	font-size: 13px;
 	color: #48cbe8;
 }
+textarea::-moz-placeholder{  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+textarea:-moz-placeholder{  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+textarea:-ms-input-placeholder{  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
 input::-webkit-input-placeholder {  
 	margin-left:5px;
 	font-family: fira_sanslight;

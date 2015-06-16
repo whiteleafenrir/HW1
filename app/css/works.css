@@ -328,6 +328,164 @@ body{
 	background: url(../img/lock.png) 250px center no-repeat;
 	height: 100%;
 }
+/* попап */
+.grey-fon-wrapper{
+	cursor:pointer;
+	display: block;
+	position:fixed;
+	opacity: 0.3;
+	width:100%;
+	min-height:100%;
+	background: #000000;
+	z-index:1;
+	
+}
+.popap-container{
+	display: block;
+  	left: 770px;
+  	top: 250px;
+	position:absolute;
+	z-index:2000;
+	background-color: #eff3f7;
+	border-radius:2% 2% 0% 0%;
+	overflow: hidden;
+
+}
+
+.popap-container-header{
+
+	background: #48cbe8;
+	color:#3ba8c0;
+	padding: 1px 1px;
+	border-bottom: 13px solid #67dffa;
+	margin-bottom:17px;
+}
+
+.popap-container-header-text{
+	text-align: center;
+  	vertical-align: middle;
+	font-size: 23px;
+	color:#ffffff;
+	font-family:fira_sansbook;
+	font-weight:normal;
+	margin: 15px;
+}
+.popap-container-body{
+	width:420px;
+	margin: 0 auto;
+}
+
+.popap-form-wrapper{
+	padding:10px 15px;
+	margin: 0 auto;
+}
+.popap-input-name-wrapper{
+	width:100%;
+	margin-bottom:11px;
+
+}
+.popap-input-password-wrapper{
+	width:100%;
+	margin-bottom:11px;
+}
+
+.popap-input-form{
+  display:block;
+  width: 95%;
+  border: 1px solid #48cbe8;
+  font-family: fira_sanslight;
+  font-size: 13px;
+  color: #48cbe8;
+  height: 28px;
+  border-radius: 4px;
+  padding-left:10px;
+}
+.popap-textarea-form{
+	padding:5px 0 0 10px;
+	width :95%;
+	border: 1px solid #48cbe8;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+	height: 100px;
+	border-radius: 4px;
+
+}
+.popap-form-title{
+	font-size:18px;
+	font-family: fira_sanslight;
+	color: #849db5;
+	display: block;
+}
+
+.popap-input-form-container{
+	margin-bottom: 36px;
+}
+
+.popap-submit-form{
+	padding: 0 20px;
+	background-color: #48cbe8;
+	border: none;
+	border-radius: 5px;
+	font-family: fira_sansbook;
+	font-size:20px;
+  	color: #FFF;
+
+}
+.popap-button-wrapper{
+  text-align: center;
+  margin: 15px auto 10px auto;
+}
+.popap-textarea-form::-webkit-input-placeholder {  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+.popap-textarea-form::-moz-placeholder{  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+.popap-textarea-form:-moz-placeholder{  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+.popap-textarea-form:-ms-input-placeholder{  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+.popap-input-form::-webkit-input-placeholder {  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+.popap-input-form::-moz-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}/* Firefox 19+ */
+.popap-input-form:-moz-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}/* Firefox 18- */
+.popap-input-form:-ms-input-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+/* /попап */
+
 .clearfix:before,
 .clearfix:after{
 	content:" ";
