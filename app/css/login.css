@@ -114,6 +114,7 @@ input:-ms-input-placeholder{
 	font-family: fira_sanslight;
 	color: #849db5;
 	text-align:center;
+	display: block;
 }
 
 .login-input-form-container{
