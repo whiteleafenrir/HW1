@@ -245,6 +245,7 @@ body{
     font-family:fira_sansbook;
 	font-size: 27px;
 	font-weight:normal;
+	display:inline-block;
 }
 .image-wrapper{
 	position: relative;
