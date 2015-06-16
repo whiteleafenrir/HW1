@@ -12,11 +12,10 @@ body{
 	min-height:100%;
 	height:auto!important;
 	overflow:hidden;
-	margin: 0 auto 83px auto;
 }
 .wrapper:after {
 	content: "";
-	
+	height: 80px;
 	display: block;
 }
 .page-footer{

@@ -12,17 +12,17 @@ body{
 	min-height:100%;
 	height:auto!important;
 	overflow:hidden;
-	margin: 0 auto 83px auto;
+
 }
 .wrapper:after {
 	content: "";
-	
+	height: 80px;
 	display: block;
 }
 .page-footer{
 	height: 80px;
 	margin: -80px auto 0px auto;
-	background:#eff3f7  url('/img/line.png') top center no-repeat;;
+	background:#eff3f7  url('/img/line.png') top center no-repeat;
 }
 .footer-container{
 	min-width:960px;
