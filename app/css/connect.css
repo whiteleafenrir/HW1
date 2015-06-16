@@ -8,7 +8,6 @@ body{
 	color: #4a545d;
 }
 .wrapper{
-	position:relative;
 	min-height:100%;
 	height:auto!important;
 	overflow:hidden;
@@ -21,7 +20,7 @@ body{
 .page-footer{
 	height: 80px;
 	margin: -80px auto 0px auto;
-	background:#eff3f7  url('/img/line.png') top center no-repeat;;
+	background:#eff3f7  url('/img/line.png') top center no-repeat;
 }
 .footer-container{
 	min-width:960px;
@@ -34,7 +33,6 @@ body{
 .header-wrapper{
 	margin-bottom:39px;
 	background:#eff3f7 url('/img/line.png') bottom center no-repeat;
-
 }
 .container-big{
 	min-width:960px;
@@ -269,15 +267,47 @@ body{
 	float:right;
 }
 .input-form{
-  width: 190px;
-  border: 1px solid #48cbe8;
-  font-family: fira_sanslight;
-  font-size: 13px;
-  color: #48cbe8;
-  height: 39px;
-  border-radius: 4px;
+	padding-left:10px;
+	width: 190px;
+	border: 1px solid #48cbe8;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+	height: 39px;
+	border-radius: 4px;
+}
+textarea::-webkit-input-placeholder {  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+input::-webkit-input-placeholder {  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+input::-moz-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}/* Firefox 19+ */
+input:-moz-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}/* Firefox 18- */
+input:-ms-input-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
 }
 .input-form-captcha{
+  padding-left:10px;
   width: 190px;
   border: 1px solid #48cbe8;
   font-family: fira_sanslight;
@@ -292,6 +322,7 @@ body{
 	color: #4a545d;
 }
 .textarea-form{
+	padding:5px 0 0 10px;
 	width :400px;
 	border: 1px solid #48cbe8;
 	font-family: fira_sanslight;
@@ -299,7 +330,6 @@ body{
 	color: #48cbe8;
 	height: 183px;
 	border-radius: 4px;
-	padding:0;
 
 }
 .text-aria-wrapper{

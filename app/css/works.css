@@ -8,7 +8,6 @@ body{
 	color: #4a545d;
 }
 .wrapper{
-	position:relative;
 	min-height:100%;
 	height:auto!important;
 	overflow:hidden;
