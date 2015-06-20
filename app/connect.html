@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="bower/normalize.css/normalize.css">
 	<link rel="stylesheet" href="css/connect.css">
 	<link rel="stylesheet" href="fonts/fira/fira.css">
+	<link rel="stylesheet" href="css/tooltip.css">
 	<link rel="stylesheet" href="fonts/proxima-nova/stylesheet.css">
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
 	<script src="bower/modernizr/modernizr.js"></script>
@@ -105,21 +106,21 @@
 					</div>
 					<div class="main-container-body">
 						<div class="form-wrapper">
-							<form action="#" method="post">
+							<form id="form" action="#" method="post">
 								<div class="input-form-container clearfix">
 									<div class="input-name-wrapper">
 										<label class="form-title">Имя</label>
-										<input type="text" class="input-form" placeholder="Как к вам обратиться?">
+										<input type="text" data-validation="name" class="input-form" placeholder="Как к вам обратиться?">
 									</div>
 									<div class="input-mail-wrapper">
 										<label class="form-title">Email</label>
-										<input type="text" class="input-form" placeholder="Куда мне писать?">
+										<input type="text" data-validation="mail" class="input-form" placeholder="Куда мне писать?">
 
 									</div>
 								</div>
 								<div class="text-aria-wrapper">
 									<label class="form-title">Сообщение</label>
-									<textarea class="textarea-form" placeholder="Кратко в чем суть"></textarea>
+									<textarea class="textarea-form" data-validation="question" placeholder="Кратко в чем суть"></textarea>
 								</div>
 								<div class="captcha-wrapper clearfix">
 									<label class="form-title">Введите код указанный на картинке</label>
@@ -154,12 +155,11 @@
 		<div class="copyright">© 2015, Это мой сайт, пожалуйства, не копируйте и не воруйте его</div>
 	</div>
 </div>
-
-
 <!-- JS -->
 <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
 <!--<script>window.jQuery || document.write('<script src="bower/jquery/dist/jquery.min.js"><\/script>')</script>-->
 <script src="bower/jquery/dist/jquery.min.js"></script>
 <script src="js/common.js"></script>
+<script src="js/tooltip.js"></script>
 </body>
 </html>
