@@ -398,7 +398,7 @@ body{
   font-family: fira_sanslight;
   font-size: 13px;
   color: #48cbe8;
-  height: 28px;
+  height: 37px;
   border-radius: 4px;
   padding-left:10px;
 }
@@ -412,6 +412,24 @@ body{
 	height: 100px;
 	border-radius: 4px;
 
+}
+.file-upload-label{
+  display: block;
+  width: 52px;
+  height: 41px;
+  position: absolute;
+  right: 20px;
+  background: url(../img/upload-icon.png) 10px 7px no-repeat #48cbe8;
+  border-radius: 0 4px 4px 0;
+}
+.fileupload{
+	position:absolute;
+	width:1px;
+	height:1px;
+	padding:0;
+	margin:-1px;
+	overflow: hidden;
+	border:0;
 }
 .popap-form-title{
 	font-size:18px;

@@ -208,10 +208,18 @@
 								<label class="popap-form-title">Название проекта</label>
 								<input type="text" data-validation="title" class="popap-input-form" placeholder="Введите название">
 							</div>
+
+
 							<div class="popap-input-name-wrapper">
+
 								<label class="popap-form-title">Картинка проекта</label>
+								<label class="file-upload-label">
+									<input id="fileupload" type="file" name="files[]" class="fileupload">
+									<input id="fileurl" type="hidden" name="fileurl">
+								</label>
 								<input type="text" data-validation="img" class="popap-input-form" placeholder="Загрузите изображение">
 							</div>
+
 							<div class="popap-input-password-wrapper">
 								<label class="popap-form-title">URL проекта</label>
 								<input type="text" data-validation="url" class="popap-input-form" placeholder="Добавьте ссылку">
