@@ -323,6 +323,9 @@ body{
 	background-image: -ms-linear-gradient( 90deg, rgb(46,140,162) 0%, rgb(46,140,162) 52%, rgb(59,168,192) 53%, rgb(59,168,192) 100%);
 
 }
+.no-cssgradients .skill-item{
+	background-color:#2e8ca2;
+} 
 /*ава*/
 .avatar-box{
 	width:142px;

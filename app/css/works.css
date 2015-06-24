@@ -265,6 +265,9 @@ body{
 	text-align: center;
 
 }
+.no-opacity .image-overlay{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
 .link-into-overlay{
  	margin-top:40px;
  	display: inline-block;
@@ -341,6 +344,9 @@ body{
 	background: #000000;
 	z-index:1;
 	
+}
+.no-opacity .grey-fon-wrapper{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
 }
 .popap-container{
 	display: none;
