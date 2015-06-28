@@ -1,0 +1,153 @@
+html{
+	height: 100%
+}
+body{
+	height:100%;
+	background:url(../img/comppattern2.png) repeat; 
+	font:normal 1em 'fira_sanlight';
+	color: #4a545d;
+}
+.wrapper{
+	min-height:100%;
+	height:auto!important;
+	overflow:hidden;
+
+}
+.wrapper:after {
+	content: "";
+	height: 80px;
+	display: block;
+}
+.page-footer{
+	height: 80px;
+	margin: -80px auto 0px auto;
+	background:#eff3f7  url('/img/line.png') top center no-repeat;
+}
+.footer-container{
+	min-width:960px;
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+
+.login-container{
+	width:590px;
+	background-color: #eff3f7;
+	border-radius:2% 2% 0% 0%;
+	overflow: hidden;
+	margin:275px auto 0 auto;
+
+}
+
+.login-container-header{
+	background: #48cbe8;
+	color:#3ba8c0;
+	padding: 1px 1px;
+	border-bottom: 13px solid #67dffa;
+	margin-bottom:17px;
+}
+
+.login-container-header-text{
+	text-align: center;
+  	vertical-align: middle;
+	font-size: 40px;
+	color:#ffffff;
+	font-family:fira_sansbook;
+	font-weight:normal;
+	margin: 15px;
+}
+.login-container-body{
+	width:420px;
+	margin: 0 auto;
+}
+
+.login-form-wrapper{
+	width: 420px;
+	margin: 0 auto;
+}
+.login-input-name-wrapper{
+	width:100%;
+	margin-bottom:11px;
+
+}
+.login-input-password-wrapper{
+	width:100%;
+	margin-bottom:11px;
+}
+
+.login-input-form{
+  padding-left:10px;
+  width: 100%;
+  border: 1px solid #48cbe8;
+  font-family: fira_sanslight;
+  font-size: 13px;
+  color: #48cbe8;
+  height: 58px;
+  border-radius: 4px;
+}
+input::-webkit-input-placeholder {  
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+input::-moz-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}/* Firefox 19+ */
+input:-moz-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}/* Firefox 18- */
+input:-ms-input-placeholder{
+	margin-left:5px;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #48cbe8;
+}
+.login-form-title{
+	font-size:36px;
+	font-family: fira_sanslight;
+	color: #849db5;
+	text-align:center;
+	display: block;
+}
+
+.login-input-form-container{
+	margin-bottom: 36px;
+}
+
+.login-submit-form{
+	padding: 0 62px;
+	background-color: #48cbe8;
+	border: none;
+	float:left;
+	border-radius: 5px;
+	font-family: fira_sansbook;
+	font-size:36px;
+  	color: #FFF;
+}
+.login-button-wrapper{
+	width:226px;
+ 	margin: 0 auto 50px auto;
+}
+.copyright{
+	padding-top:32px;
+	margin:0 auto;
+	font-family: fira_sanslight;
+	font-size:13px;
+	width:430px;
+}
+
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display:table;
+}
+.clearfix:after{
+	clear:both;
+}

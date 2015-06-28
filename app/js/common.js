@@ -15,4 +15,10 @@ $(document).ready(function(){
 		$('.grey-fon-wrapper').hide();
 
 	});
+	$('.error-msg__close').on('click',function(){
+		$('.error-msg').hide();
+	});
+	$('.success-msg__close').on('click',function(){
+		$('.success-msg').hide();
+	});
 });
