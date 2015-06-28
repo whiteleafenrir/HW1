@@ -23,7 +23,7 @@
            <?php if($_SESSION['auth'] == true): ?>
             <li class="works-list-item">
                 <div class="work-image">
-                    <div class="image-wrapper">
+                    <div class="image-wrapper image-wrapper_new-project">
                         <img src="img/add_project.png" alt="">
                     </div>
                     <div class="image-name">

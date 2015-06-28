@@ -6,7 +6,7 @@ $(document).ready(function(){
 		var item = $(this);
 		$(this).stop(true,true).animate({'opacity':0.0},300)
 	});
-	$('.image-wrapper').on('click',function(){
+	$('.image-wrapper_new-project').on('click',function(){
 		$('.grey-fon-wrapper').show();
 		$('.popap-container').show();
 	});
